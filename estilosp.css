@@ -1,0 +1,156 @@
+body {
+	margin: 40px;
+	font-style:italic;
+	text-shadow: 1px;
+	background-color: black;
+}
+@media (min-width: 900px) and (max-width: 900px){
+	img{
+		width: 100%
+	}
+p{
+	color: blue;
+}
+}
+h2{
+	padding-top: 15px;
+	color: white;
+	margin-left: 15px;
+	float: left;
+	font-style:italic;
+	text-shadow: 2px 2px #02010a;
+	font-size: 2em;
+	}
+#cabecera {
+	background-color: #5b7989;
+	height: 120px;
+	border-radius: 10px 10px 0px 0px;
+}
+#paisajes{
+	background-color: #d5c75f;
+	height: 555px;
+}
+img{
+	max-width: 100%;
+	box-shadow: 2px 2px 2px 2px #02010a;
+}
+.image1{
+	-webkit-filter:blur(10px);
+	filter: blur(10px);
+}
+.image2{
+	-webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+}
+.image3{
+	-webkit-filter:sepia(90%);
+	filter: sepia(90%);
+}
+.image4{
+	-webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+}
+.image6{
+	-webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+}
+.caja{
+	box-sizing: border-box;
+	float: left;
+	padding: 3em;
+	padding-top: 25px;
+	width:33.33%;
+}
+nav{
+  height: 100%;
+}
+ul{
+  margin: 15px;
+  overflow: hidden;
+  height: 100%;
+	padding-top: 10px;
+}
+li{
+  float: right;
+  display: block;
+  margin: 5px 5px;
+  padding: 40px 0px;
+  height: 50%;
+	text-decoration: underline;
+}
+footer {
+	margin-top: 0px;
+	background-color: #C6d5c9;
+	padding-top: 0px;
+	height: 250px;
+	border-radius: 0px 0px 10px 10px;
+}
+.contenedor {
+	display: flex;
+	flex-direction: row;
+}
+#piepagina{
+	flex-direction: row
+	padding: 0px;
+	padding-top: 15px;
+}
+#piepagina.contenedor{
+	/*flex-direction: row;*/
+	margin-top: 0px;
+	padding: 0px;
+	padding-top: -50px;
+	width:13.33%;
+	font-size: 1em;
+}
+.caja1{
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-left: 10px;
+	padding-right: 40px;
+}
+.caja2{
+	margin-top: 5px;
+	margin-left: 0px;
+	margin-right: 30px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+.caja3{
+	margin-top: 5px;
+	margin-left: 55px;
+	margin-right: 30px;
+	padding-left: 10px;
+	padding-right: 35px;
+}
+.caja4{
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 80px;
+	padding-left: 5px;
+	padding-right: 80px;
+}
+.iconos{
+	margin-right: 9px;
+}
+p	{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-decoration: underline;
+	padding-left: 10px;
+	margin-top: -10px;
+	margin-left: 0px;
+	margin-right: 5px;
+}
+h3{
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: -10px;
+	padding-left: 5px;
+}
+.enlace{
+color: white;
+font-size: 1.2em;
+font-weight: bold;
+}
